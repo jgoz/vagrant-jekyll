@@ -1,0 +1,6 @@
+bash "set git configuration" do
+  code <<-EOH
+    git config --global user.name "<YOUR NAME>"
+    git config --global user.email "<YOUR EMAIL>"
+  EOH
+end
