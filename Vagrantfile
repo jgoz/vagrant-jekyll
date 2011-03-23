@@ -38,6 +38,7 @@ Vagrant::Config.run do |config|
    chef.add_recipe "git::config"
    chef.add_recipe "tmux::source"
    chef.add_recipe "tmux::config"
+   chef.add_recipe "pngout"
 
   #   # You may also specify custom JSON attributes:
   #   chef.json = { :mysql_password => "foo" }

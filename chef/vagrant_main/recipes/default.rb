@@ -5,3 +5,11 @@ gem_packages.each do |pkg|
     action :install
   end
 end
+
+apt_packages = ['pngnq']
+
+apt_packages.each do |pkg|
+  package pkg do
+    action :install
+  end
+end
