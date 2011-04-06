@@ -6,7 +6,7 @@ gem_packages.each do |pkg|
   end
 end
 
-apt_packages = ['pngnq']
+apt_packages = ['pngnq', 'curl']
 
 apt_packages.each do |pkg|
   package pkg do
